@@ -623,7 +623,7 @@ small,
   padding: 0; }
 
 .entry-related__title {
-  margin-bottom: 1em; }
+  margin-bottom: 2rem; }
 
 .entry-related__link, .entry-related__link:visited {
   -webkit-transition: all .2s;
@@ -637,6 +637,10 @@ small,
   .entry-related__link:hover, .entry-related__link:visited:hover {
     color: #3db3e4;
     border-bottom: 1px solid rgba(61, 179, 228, 0.25); }
+
+.entry-related__cta {
+  margin-top: 2rem;
+  text-align: center; }
 
 @media only screen and (min-width: 577px) {
   .entry-related__item {
